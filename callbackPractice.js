@@ -41,11 +41,14 @@ first(names, function(firstName){
 
 
   //Code Here for last
-
+var last = function(array, cb){
+    return names[6];
+}; 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 last(names, function(lastName){
   console.log('The last name in names is ', lastName);
 });
+
 
 
 
